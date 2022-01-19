@@ -1,5 +1,4 @@
-
-class Stringmethods{
+class StringMethods{
 public static void main(String[] args){
 String s1="Welcome";
 String s2=" to the";
@@ -23,7 +22,7 @@ System.out.println(c2.toUpperCase()); //uppercase
 System.out.println(c2.toLowerCase()); //lowecase
 System.out.println(s4.trim()); //trim
 System.out.println(c2.substring(3,7)); //substring
-String[] result=c2.split("\n");
+String[] result=c2.split("\s");
 {
 for (String str : result)
 {
